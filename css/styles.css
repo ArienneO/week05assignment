@@ -6,3 +6,27 @@ body {
 	margin: 0 auto;
 	max-width: 80rem;
 }
+
+@media screen and (max-width: 44em) {
+	nav {
+			display: none;
+	}
+}	
+
+@media screen and (min-width: 48em) {
+	
+	.header {
+		display: inline-flex;
+		align-items: center;
+		width: 100%;	
+	}
+
+	.main {
+		display: flex;
+	}
+
+	.sidebar {
+		align-self: stretch;
+	}
+
+}
